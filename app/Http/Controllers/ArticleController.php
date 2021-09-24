@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use app\Article;
+use app\Author;
+
 
 class ArticleController extends Controller
 {
@@ -13,7 +16,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        //
+        
     }
 
     /**
@@ -23,7 +26,7 @@ class ArticleController extends Controller
      */
     public function create()
     {
-        //
+        return view('articles.create');
     }
 
     /**
@@ -34,7 +37,7 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       
     }
 
     /**
